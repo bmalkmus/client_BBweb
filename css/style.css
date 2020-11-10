@@ -89,7 +89,7 @@ div {
     align-items: center;
     justify-content: center;
 }
-.menuContainer{
+#menuContainer{
     background-color: rgb(212,177,123);
     width:50%;
     display: flex;
