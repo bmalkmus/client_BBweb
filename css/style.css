@@ -2,6 +2,7 @@ div {
     height:100vh;
     width: 100%;
 }
+/* ############### SECTION 1 AND COMPONENTS ############### */
 #section1 {
     background-image: url(../images/landingImage.jpg);
     background-size: cover;
@@ -9,7 +10,7 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav{
@@ -27,7 +28,7 @@ div {
 }
 
 .links{
-    background-color: red;
+    background-color: rgb(211,35,35);
     height: 50%;
     width:50%;
     display: flex;
@@ -59,5 +60,53 @@ div {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .redText{
-    color: Red;
+    color: rgb(211,35,35);
+}
+
+.menuButton, .menuButton:visited {
+    background-color: rgb(211,35,35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+    width: 20%;
+    border-radius: 50px;
+    height: 35px;
+    font-size: 30px;
+
+}
+.menuButton:hover{
+    box-shadow: 4px 5px 7px whitesmoke;
+}
+
+/* ############### SECTION 2 AND COMPONENTS ############### */
+
+#section2{
+    background-color: rgb(170,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuContainer{
+    background-color: rgb(212,177,123);
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 5px;
+}
+#menuInfo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(211,35,35);
+    color: white;
+
 }
