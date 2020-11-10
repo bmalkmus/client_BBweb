@@ -1,0 +1,242 @@
+{
+    "burgers":[
+        {
+            "name":"Hamburger",
+            "price":"$3.89"
+        },
+        {
+            "name":"Cheeseburger",
+            "price":"$3.99"
+        },
+        {
+            "name":"Bacon Cheeseburger",
+            "price":"$5.29"
+        },
+        {
+            "name":"Avacado Swiss Burger",
+            "price":"$5.19"
+        },
+        {
+            "name":"Mushroom Swiss Burger",
+            "price":"$5.19"
+        },
+        {
+            "name":"Pastrami Swiss Burger",
+            "price":"$5.29"
+        },
+        {
+            "name":"Chili Cheese Burger",
+            "price":"$5.19"
+        },
+        {
+            "name":"Double CheeseBurger",
+            "price":"$5.99"
+        },
+        {
+            "name":"Triple CheeseBurger",
+            "price":"$6.98"
+        },
+        {
+            "name":"Big Bay",
+            "price":"$5.99"
+        },
+        {
+            "name":"Hawaiian Burger",
+            "price":"$5.19"
+        },
+        {
+            "name":"Grilled Onion Cheese Burger",
+            "price":"$5.19"
+        },
+        {
+            "name":"Jr Cheese Burger",
+            "price":"$2.89"
+        }
+    ],
+    "grilledChicken": [
+        {
+            "name":"Chicken & Swiss",
+            "price": "$4.99"
+        },
+        {
+            "name":"Chicken Bacon & Swiss",
+            "price": "$5.99"
+        },
+        {
+            "name":"BBQ Chicken",
+            "price": "$4.99"
+        }
+    ],
+    "sandwiches":[
+        {
+            "name":"Phili Cheese Steak",
+            "price": "$6.99"
+        },
+        {
+            "name":"Crispy Chicken",
+            "price": "$5.99"
+        },
+        {
+            "name":"Grilled Cheese & Ham",
+            "price": "$4.99"
+        },
+        {
+            "name":"Grilled Cheese",
+            "price": "$3.99"
+        },
+        {
+            "name":"Fish Sandwich",
+            "price": "$5.39"
+        },
+        {
+            "name":"Patty Melt",
+            "price": "$4.99"
+        }
+    ],
+    "combos":[
+        {
+            "name":"Cheese Burger",
+            "price": "$8.69"
+        },
+        {
+            "name":"Bacon Cheeseburger",
+            "price": "$9.97"
+        },
+        {
+            "name":"Grilled Onion Cheeseburger",
+            "price": "$9.99"
+        },
+        {
+            "name":"Mushroom Swiss Burger",
+            "price": "$9.99"
+        },
+        {
+            "name":"Chicken Swiss",
+            "price": "$9.99"
+        },
+        {
+            "name":"Grilled Cheese",
+            "price": "$8.18"
+        },
+        {
+            "name":"Jr Meal",
+            "price": "$7.59"
+        },
+        {
+            "name":"Double Cheeseburger",
+            "price": "$10.99"
+        },
+        {
+            "name":"Philli Cheesesteak",
+            "price": "$11.50"
+        },
+        {
+            "name":"Fish and Chips",
+            "price": "$10.50"
+        },
+        {
+            "name":"Chicken Strips",
+            "price": "$9.99"
+        },
+        {
+            "name":"Hawaiian Chicken",
+            "price": "$10.29"
+        },
+        {
+            "name":"Avocado Burger",
+            "price": "$9.99"
+        }
+    ],
+    "sides":[
+        {
+            "name":"French Fries",
+            "price": "$2.99"
+        },
+        {
+            "name":"Onion Rings",
+            "price": "$2.99"
+        },
+        {
+            "name":"Fried Mushrooms",
+            "price": "$4.39"
+        },
+        {
+            "name":"Fried Zucchini",
+            "price": "$4.39"
+        },
+        {
+            "name":"Corn Dog",
+            "price": "$1.99"
+        },
+        {
+            "name":"Mozzarella Sticks",
+            "price": "$4.85"
+        }
+    ],
+    "iceCream": {
+        "types":[
+            {
+                "name":"Milkshake",
+                "price":"$3.99"
+            },
+            {
+                "name":"Float",
+                "price":"$2.99"
+            }
+        ],
+        "flavors":["Vanilla", "Coffee", "Mocha", "Carmel", "Root Beer", "Marshmellow", "Black Raspberry", "Hazelnut", "S'mores", "Chocolate", "Banana", "Pineapple", "Strawberry", "Peanut Butter", "Pumpkin Pie", "Oreo", "Malt"]
+    },
+    "extras":[
+        {
+            "name":"Bacon",
+            "price": "$1.50"
+        },
+        {
+            "name":"Cheese",
+            "price": "$.35"
+        },
+        {
+            "name":"Mushrooms",
+            "price": "$1.50"
+        },
+        {
+            "name":"Avocado",
+            "price": "$1.50"
+        },
+        {
+            "name":"Jalapenos",
+            "price": "$.99"
+        },
+        {
+            "name":"Extra Beef Patty",
+            "price": "$2.50"
+        },
+        {
+            "name":"Extra Chicken Breast",
+            "price": "$2.50"
+        },
+        {
+            "name":"Egg",
+            "price": "$.95"
+        }
+        
+    ], 
+    "drinks":[
+        {
+            "name":"Large Fountain",
+            "price": "$2.19"
+        },
+        {
+            "name":"Medium Fountain",
+            "price": "$1.89"
+        },
+        {
+            "name":"Milk",
+            "price": "$2.25"
+        },
+        {
+            "name":"Coffee",
+            "price": "$.99"
+        }
+    ]
+}
