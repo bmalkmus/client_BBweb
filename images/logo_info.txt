@@ -1,0 +1,7 @@
+
+            Fonts used: NexaRustSlab-Black,Lato-BlackItalic 
+
+            Colors used: DC1A21,FFFFFF  
+
+            Icon url: https://thenounproject.com/term/hamburger/541942  
+        

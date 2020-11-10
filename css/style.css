@@ -1,0 +1,63 @@
+div {
+    height:100vh;
+    width: 100%;
+}
+#section1 {
+    background-image: url(../images/landingImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+}
+
+#logoImg{
+    height: 140px;
+    width: 140px;
+}
+
+.links{
+    background-color: red;
+    height: 50%;
+    width:50%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.links a, .links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-shadow: 2px 3px 4px white;
+}
+
+.slogan{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 10px;
+    color: white;
+    height: 50%;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.redText{
+    color: Red;
+}
