@@ -114,18 +114,17 @@
 }
 
 /* ############### SECTION 3 AND COMPONENTS ############### */
-#galleryTitle {
-    background-color: rgb(86,13,13);
+#galleryTitle, #reviewsTitle {
     margin:0px;
     height: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 60px;
+    color:white;
 }
 #section3{
     width: 100%;
-    height:100vh;
-    background-color: rgb(86,13,13);
+    background-color: rgb(148,0,0);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -135,9 +134,63 @@
 
 #section3 hr{
     width: 50%;
+    background-color: white;
+    color: white;
+    border: 3px white solid;
+    border-radius: 5px;
+}
+#imagesContainer{
+    height: 100%;
+    background-color: rgb(148,0,0);
 }
 .slide-container{
-    background-color: rgb(86,13,13);
+    background-color:rgb(148,0,0);
+    height:100%;
 }
 /* ############### SECTION 4 AND COMPONENTS ############### */
+
+#section4{
+    background-color:rgb(86,13,13);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#section4 hr{
+    width: 50%;
+    background-color: white;
+    color: white;
+    border: 3px white solid;
+    border-radius: 5px;
+}
 /* ############### SECTION 5 AND COMPONENTS ############### */
+
+#section5 {
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 25px;
+}
+
+#section5 hr{
+    width: 100%;
+    background-color: white;
+    color: white;
+    border: 3px white solid;
+    border-radius: 5px;
+}
+
+.info{
+    margin: 15px;
+}
+
+.info span{
+    color: darkred;
+    font-weight: bolder;
+}
+
