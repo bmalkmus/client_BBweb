@@ -53,13 +53,19 @@
     width: 50%;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: white solid 10px;
     color: white;
     height: 50%;
-    font-size: 100px;
+    font-size: 75px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.slogan p{
+    height: 100%;
+    width: 100%;
 }
 .redText{
     color: rgb(211,35,35);
