@@ -1,0 +1,19 @@
+@media screen and (max-width: 912px) {
+   .nav{
+       flex-direction: column;
+       width: 100%;
+   }
+   .links, .slogan{
+       width: 100%;
+       margin:0 auto;
+   }
+   .menuButton{
+       font-size: 18px;
+   }
+  }
+
+  @media screen and (max-width: 550px) {
+    .menuButton{
+        width: 75%;
+    }
+  }
