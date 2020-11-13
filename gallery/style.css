@@ -28,3 +28,33 @@
 .active{
   background-color: rgb(148,0,0);
 }
+
+.smallerScreenGallery{
+  display: none;
+}
+
+.staticGallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+
+}
+
+.staticGallery img{
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px white;
+}
+
+@media screen and (max-width:1080px){   
+  .react-slideshow-container{
+      display: none;
+  }
+  .smallerScreenGallery{
+      display: block;
+  }
+
+}

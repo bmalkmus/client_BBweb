@@ -21,6 +21,16 @@ function App(){
                 })}
                 
             </Slide>
+            <div className="smallerScreenGallery">
+                {[...gallery].map(item =>{
+                        return(
+                            <div key = {item.src} className="staticGallery">
+                                    <img src={item.src} height="50%" width="50%"/>
+                                    <span>{item.description}</span>
+                        </div>
+                        )
+                    })}
+            </div>
         </div>
     )
 }
